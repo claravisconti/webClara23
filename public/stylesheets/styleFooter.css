@@ -1,0 +1,23 @@
+.containerFooter{
+  padding-top: 2vh;
+  height: 10vh;
+  background-color: #69B5AC;
+}
+
+.footer-link:link, .footer-link:active, .footer-link:visited {
+   color:white;
+   font-size: 1em;
+   text-decoration: none;
+   margin: 0 5px;
+}
+
+/*Media*/
+@media (max-width: 1024px) {
+
+   /*Nav*/
+.nav-link:link, .nav-link:active, .nav-link:visited {
+  color:white;
+  font-size: 0.8em;
+}
+ 
+}

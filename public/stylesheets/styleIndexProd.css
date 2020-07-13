@@ -1,0 +1,30 @@
+/* Producto */
+h4 {
+  color:white;
+  text-transform:uppercase;
+}
+.containerProdIndex {
+  padding: 5vh 0;
+}
+
+.indexProdDesc {
+  padding: 3%;
+  max-width: 400px;
+  max-height: 300px;
+  height: 90%;
+  background-color: #ADDBA7;
+  left:60px;
+  top:5%;
+}
+
+.indexProdImg {
+  max-width: 600px;
+  height: auto;
+}
+
+.indexProdImg img {
+  width:100%;
+  object-fit: cover;
+}
+
+

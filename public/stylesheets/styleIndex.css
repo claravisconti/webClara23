@@ -1,0 +1,72 @@
+/* Section */ 
+
+.containerSection {
+  margin: 2vh 0;
+}
+
+.colSection {
+  padding: 0;
+  max-width: 20%;
+}
+
+.ImagenCard01 .text, .ImagenCard02 .text, .ImagenCard03 .text  {
+  visibility:hidden;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+  }
+  
+.ImagenCard01:hover .text, .ImagenCard02:hover .text, .ImagenCard03:hover .text {
+  visibility:visible;
+  text-align: center;
+  }
+
+.card {
+  border:none;
+}
+
+.card-body {
+  padding: 0px 25px;
+}
+
+.ImagenCard01 {
+  background: no-repeat url("/images/packaging01.gif");
+  background-size: cover;
+  margin: 25px;
+  height: 30vh;
+  width: 30vh;
+  border: none;
+}
+
+.ImagenCard02 {
+  background: no-repeat url("/images/editorial01.png");
+  background-size: cover;
+  margin: 25px;
+  height: 30vh;
+  width: 30vh;
+  border: none;
+}
+
+.ImagenCard03 {
+  background: no-repeat url("/images/stand.png");
+  background-size: cover;
+  margin: 25px;
+  height: 30vh;
+  width: 30vh;
+  border: none;
+}
+
+.ImagenCard01:hover, .ImagenCard02:hover, .ImagenCard03:hover {
+  background: none;
+  background-color: #93c08e;
+  margin: 25px;
+  height: 30vh;
+  width: 30vh;
+  border: none;
+}
+
+.card-title {
+  color:#386862;
+  font-size: 1.1em;
+  line-height: 0em;
+}
