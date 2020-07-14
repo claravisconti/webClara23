@@ -63,6 +63,7 @@
   height: 30vh;
   width: 30vh;
   border: none;
+  cursor: pointer;
 }
 
 .card-title {
