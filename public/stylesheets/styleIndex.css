@@ -1,7 +1,7 @@
 /* Section */ 
 
 .containerSection {
-  margin: 2vh 0;
+  margin: 10vh 0;
 }
 
 .colSection {
@@ -9,14 +9,14 @@
   max-width: 20%;
 }
 
-.ImagenCard01 .text, .ImagenCard02 .text, .ImagenCard03 .text  {
+.ImagenCard01 .text, .ImagenCard02 .text, .ImagenCard03 .text, .ImagenCard04 .text {
   visibility:hidden;
   text-align: center;
   color:white;
   text-decoration: none;
   }
   
-.ImagenCard01:hover .text, .ImagenCard02:hover .text, .ImagenCard03:hover .text {
+.ImagenCard01:hover .text, .ImagenCard02:hover .text, .ImagenCard03:hover .text, .ImagenCard04:hover .text {
   visibility:visible;
   text-align: center;
   }
@@ -33,8 +33,8 @@
   background: no-repeat url("/images/packaging01.gif");
   background-size: cover;
   margin: 25px;
-  height: 30vh;
-  width: 30vh;
+  height: 35vh;
+  width: 35vh;
   border: none;
 }
 
@@ -42,8 +42,8 @@
   background: no-repeat url("/images/editorial01.png");
   background-size: cover;
   margin: 25px;
-  height: 30vh;
-  width: 30vh;
+  height: 35vh;
+  width: 35vh;
   border: none;
 }
 
@@ -51,17 +51,26 @@
   background: no-repeat url("/images/stand.png");
   background-size: cover;
   margin: 25px;
-  height: 30vh;
-  width: 30vh;
+  height: 35vh;
+  width: 35vh;
   border: none;
 }
 
-.ImagenCard01:hover, .ImagenCard02:hover, .ImagenCard03:hover {
+.ImagenCard04 {
+  background: no-repeat url("/images/empresarial01.png");
+  background-size: cover;
+  margin: 25px;
+  height: 35vh;
+  width: 35vh;
+  border: none;
+}
+
+.ImagenCard01:hover, .ImagenCard02:hover, .ImagenCard03:hover, .ImagenCard04:hover {
   background: none;
   background-color: #93c08e;
   margin: 25px;
-  height: 30vh;
-  width: 30vh;
+  height: 35vh;
+  width: 35vh;
   border: none;
   cursor: pointer;
 }
