@@ -13,7 +13,7 @@ a {
   color:white;
 }
 
-.row {
+.row, .container-fluid {
   margin:0px;
   padding:0px;
 }
