@@ -3,6 +3,15 @@
   height:320px;
 }
 
+#logoIndex {
+  width: 220px;
+  height:220px;
+  border-radius: 255px;
+  position: relative;
+  left: -330px;
+  top: 57px;
+}
+
 .rowHeader {
   background: no-repeat url("/images/header.png");
   background-size: cover;
