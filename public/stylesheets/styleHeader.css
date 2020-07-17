@@ -61,7 +61,7 @@
   outline: none;
 }
 
-button {
+#buttonSearch {
  margin-left: 2px;
  font-size: 1.1em;
  background-color: #53918A;
