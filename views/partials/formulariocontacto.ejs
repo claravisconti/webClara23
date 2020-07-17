@@ -14,6 +14,10 @@
 
             <h3>Contacto</h3>
 
+            <% if(typeof mensaje !== "undefined") { %>
+            <p><%=mensaje%></p>
+            <% } else { %>
+
             <form action="contact/send" method="POST">
 
                 <div class="">
@@ -39,6 +43,8 @@
                 <button id="buttonContact" type="submit">Enviar</button>
 
             </form>
+
+            <% } %>
 
         </div>
 
