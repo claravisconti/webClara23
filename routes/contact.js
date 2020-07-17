@@ -4,6 +4,6 @@ const contactController = require('../controllers/contactController');
 
 /* GET home page. */
 router.get('/', contactController.index);
-router.post('/', contactController.sent);
+router.post('/send', contactController.sent);
 
 module.exports = router;
