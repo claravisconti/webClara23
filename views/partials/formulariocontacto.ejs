@@ -6,11 +6,13 @@
 
             <% if(typeof mensaje !== "undefined") { %>
 
-            <h3>Gracias por contactarte!</h3>
-            <p><%=mensaje%></p>
+            <div>
+                <h3>Gracias por contactarte!</h3>
+                <p><%=mensaje%></p>
+            </div>
             <% } else { %>
 
-                <form action="contact/send" method="POST" class="contactForm">
+            <form action="contact/send" method="POST" class="contactForm">
 
                 <div class="">
 
@@ -41,7 +43,7 @@
 
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-3 col-xl-3 colContact">    
+        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-3 col-xl-3 colContact">
 
             <div class="row d-flex justify-content-center">
                 <h3>Contacto</h3>
