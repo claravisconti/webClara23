@@ -1,26 +1,19 @@
 <div class="cointainer-fluid">
 
-    <div class="row">
+    <div class="row d-flex justify-content-center rowContact">
 
-        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center">
-            <ul>
-                <li><i class="fa fa-user"></i> Maria Clara Visconti </li>
-                <li><i class="fa fa-phone"></i> 54 (11) 5494-6262</li>
-                <li><i class="fa fa-envelope"></i> claravisconti@hotmail.com </li>
-            </ul>
-        </div>
-
-        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-6 col-xl-6">
-
-            <h3>Contacto</h3>
+        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-3 col-xl-4">
 
             <% if(typeof mensaje !== "undefined") { %>
+
+            <h3>Gracias por contactarte!</h3>
             <p><%=mensaje%></p>
             <% } else { %>
 
-            <form action="contact/send" method="POST">
+                <form action="contact/send" method="POST" class="contactForm">
 
                 <div class="">
+
                     <input type="text" name="nombre" class="" placeholder="Nombre" required>
                 </div>
 
@@ -37,7 +30,7 @@
                 </div>
 
                 <div class="">
-                    <textarea rows="4" name="mensaje" placeholder="Escriba su consulta..." required></textarea>
+                    <textarea rows="6" name="mensaje" placeholder="Escriba su consulta..." required></textarea>
                 </div>
 
                 <button id="buttonContact" type="submit">Enviar</button>
@@ -45,6 +38,27 @@
             </form>
 
             <% } %>
+
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-12 col-lg-3 col-xl-3 colContact">    
+
+            <div class="row d-flex justify-content-center">
+                <h3>Contacto</h3>
+                <img class="imgContact" src="/images/contacto.jpg">
+                <ul class="ulContact">
+                    <li><i class="fa fa-phone"></i> 54 (11) 5494-6262</li>
+                    <li><i class="fa fa-envelope"></i> claravisconti@hotmail.com </li>
+                </ul>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+                <a href="https://www.facebook.com/claraviscontidg/" class="contact-link"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="#" class="contact-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mariaclaravisconti/" class="contact-link"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
 
         </div>
 

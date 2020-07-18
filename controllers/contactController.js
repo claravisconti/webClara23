@@ -48,7 +48,7 @@ const contactController = {
         console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
  
         res.render('contact', {
-            mensaje: "Gracias por contactarme. Estaré respondiendo a la brevedad."
+            mensaje: "Hemos recibido tu mensaje. Estaré respondiendo a la brevedad."
         });
     }
 
