@@ -1,0 +1,36 @@
+/* Producto */
+.buttonProjects, .buttonProjects:hover {
+    color:white;
+    text-decoration: none;
+    background-color:#69B5AC;
+    padding: 2%;
+    text-transform: uppercase;
+    font-size: 0.9em;
+  }
+
+  .buttonProjects:hover {
+    background-color:#53918A;
+  }
+
+  .titleProjects {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#53918A;
+    font-weight: bold;
+  }
+
+  .colTitleProjects {
+   padding: 2%;
+   text-align: justify;
+   text-justify: inter-word;
+   line-height: 25px;
+  }
+
+  .divIamgen img {
+    max-width: 450px;
+  }
+
+  .rowHeadingPorjects {
+    margin: 3% 0;
+  }
+
+ 
