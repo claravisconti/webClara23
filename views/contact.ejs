@@ -5,7 +5,67 @@
   <%- include('./partials/header') %>
   <div class="container-fluid">
 
-    <%- include('./partials/formulariocontacto') %>
+    <div class="cointainer-fluid">
+
+      <div class="row d-flex justify-content-center rowContact">
+  
+          <div class="col-xs-6 col-sm-6 col-md-12 col-lg-3 col-xl-4">
+  
+              <% if(typeof mensaje !== "undefined") { %>
+  
+              <div>
+                  <h3>Gracias por contactarte!</h3>
+                  <p><%=mensaje%></p>
+              </div>
+              <% } else { %>
+  
+              <form action="contact/send" method="POST" class="contactForm">
+  
+                  <div class="">
+  
+                      <input type="text" name="nombre" class="" placeholder="Nombre" required>
+                  </div>
+  
+                  <div class="">
+                      <input type="text" name="empresa" class="" placeholder="Empresa">
+                  </div>
+  
+                  <div class="">
+                      <input type="email" name="email" class="" placeholder="Correo" required>
+                  </div>
+  
+                  <div class="">
+                      <input type="text" name="telefono" class="" placeholder="Telefono">
+                  </div>
+  
+                  <div class="">
+                      <textarea rows="6" name="mensaje" placeholder="Escriba su consulta..." required></textarea>
+                  </div>
+  
+                  <button id="buttonContact" type="submit">Enviar</button>
+  
+              </form>
+  
+              <% } %>
+  
+          </div>
+  
+          <div class="col-xs-6 col-sm-6 col-md-12 col-lg-3 col-xl-3 colContact">
+  
+              <div class="row d-flex justify-content-center">
+                  <h3>Contacto</h3>
+                  <a href="mailto:claravisconti@hotmail.com"><img class="imgContact" src="/images/contacto.jpg"></a>
+                  <ul class="ulContact">
+                      <li><i class="fa fa-phone"></i> 54 (11) 5494-6262</li>
+                      <li><i class="fa fa-envelope"></i> claravisconti@hotmail.com </li>
+                  </ul>
+              </div>
+  
+          </div>
+  
+      </div>
+  
+  </div>
 
     <%- include('./partials/boostrapUtilities') %>
 
