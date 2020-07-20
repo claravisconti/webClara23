@@ -9,7 +9,7 @@ const contactController = {
     sent: async (req, res) => {
         //console.log(req.body);
         const output = `
-        <p>Tenes una nueva consulta</p>
+        <p>Nueva consulta</p>
         <h3>Detalles del contacto</h3>
         <ul>
         <li> Nombre: ${req.body.nombre} </li>
