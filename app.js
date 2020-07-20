@@ -9,7 +9,7 @@ var nodemailer = require('nodemailer');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var contactRouter = require('./routes/contact');
-var projectRouter = require('./routes/project');
+var projectRouter = require('./routes/projects');
 var servicesRouter = require('./routes/services');
 
 var app = express();
