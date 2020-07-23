@@ -7,12 +7,17 @@ const projectController = {
     index: (req, res) => {
 
         res.render('project', {
-            projects: projects
+            projects: projects,
         });
-    },
+    }
+    ,
     option: (req, res) => {
 
-        const projectsFound = projects.find(project => project.id == req.params.idProject);
+        var idProject = req.params.idProject;
+
+        const projectsFound = projects.find(project => project.id == idProject);
+        // console.log(projectsFound);
+        // console.log(idProject);
 
         res.render('result', {
             project: projectsFound
