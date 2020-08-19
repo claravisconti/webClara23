@@ -23,6 +23,19 @@ const projectController = {
             project: projectsFound
         });
     }
+    // ,
+    // categories: (req, res) => {
+
+    //     var idProject = req.params.idProject;
+
+    //     const projectsCategories = projects.find(project => project.categories == idProject);
+    //     // console.log(projectsFound);
+    //     // console.log(idProject);
+
+    //     res.render('result', {
+    //         project: projectsFound
+    //     });
+    // }
 }
 
 module.exports = projectController;
