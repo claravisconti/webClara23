@@ -29,8 +29,12 @@
     max-width: 450px;
   }
 
+ .marginContainerFull {
+    margin: 0 0 6% 0;
+  }
+
   .rowHeadingPorjects {
-    margin: 3% 0;
+    margin: 2% 0;
   }
 
  
