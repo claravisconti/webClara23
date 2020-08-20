@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "category": "editorial",
+        "images": "/editorial/editorial01.png",
+        "title": "Revista Maison",
+        "description": "El diseño editorial es imprescindible a la hora de realizar la maquetación y composición de publicaciones como revistas, diarios, libros, discos y afiches para darles coherencia, organización y estilo."
+
+    },
+    {
+        "id": 2,
+        "category": "editorial",
+        "images": "/editorial/editorial02.png",
+        "title": "Diseño web",
+        "description": "El diseño editorial es imprescindible a la hora de realizar la maquetación y composición de publicaciones como revistas, diarios, libros, discos y afiches para darles coherencia, organización y estilo."
+    },
+    {
+        "id": 3,
+        "category": "editorial",
+        "images": "editorial03.png",
+        "title": "Diseño institucional",
+        "description": "El diseño editorial es imprescindible a la hora de realizar la maquetación y composición de publicaciones como revistas, diarios, libros, discos y afiches para darles coherencia, organización y estilo."
+
+    }
+]
