@@ -1,13 +1,13 @@
 <div class="container-fluid">
 
-    <% for(project of projects) { %>
+    <!-- EDITORIAL -->
 
     <div class="row d-flex justify-content-center rowHeadingPorjects">
 
         <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 colTitleProjects">
 
-            <h3 class="titleProjects"><%=project.title%></h3>
-            <p><%=project.description%></p>
+            <h3 class="titleProjects">Diseno Editorial</h3>
+            <p>El diseño editorial es imprescindible a la hora de realizar la maquetación y composición de publicaciones como revistas, diarios, libros, discos y afiches para darles coherencia, organización y estilo.</p>
             <a href="/contact" class="buttonProjects d-flex justify-content-center">Consultame</a>
 
         </div>
@@ -15,54 +15,31 @@
         <div class="col-sm-12 col-md-12 col-lg-3 col-xl-4">
 
             <div class="divIamgen">
-                <img src="/images/<%=project.images%>">
+                <img src="/images/editorial.jpg">
             </div>
         </div>
 
     </div>
 
-    <% } %>
+    <!--proyectos-->
 
-</div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center flex-wrap">
+                
+                <% for(project of projects) { %>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/images/<%=project.images%>" alt="Card image cap">
+                    <div class="card-body d-flex justify-content-center">
+                        <h5 class="card-title pt-2"><%=project.title%></h5>
+                    </div>
+                </div>
+                <% } %>
 
-
-<!--proyectos-->
-
-<div class="row d-flex justify-content-center">
-
-    <div class="">
-
-        <div class="">
-            <img src="/images/">
+            </div>
         </div>
-
     </div>
 
-    <div class="">
-
-        <div class="">
-            <img src="/images/">
-        </div>
-
-    </div>
-
-    <div class="">
-
-        <div class="">
-            <img src="/images/">
-        </div>
-
-    </div>
-
-    <div class="">
-
-        <div class="">
-            <img src="/images/">
-        </div>
-
-    </div>
-
-
-</div>
 
 </div>
