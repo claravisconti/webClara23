@@ -1,13 +1,16 @@
 const fs = require("fs");
 const path = require("path");
-const projectsFilePath = path.join(__dirname, '../json/projectsEditorial.json');
-const projectsEditorial = JSON.parse(fs.readFileSync(projectsFilePath, 'utf-8'));
+const projectsEditorialFilePath = path.join(__dirname, '../json/projectsEditorial.json');
+const projectsEditorial = JSON.parse(fs.readFileSync(projectsEditorialFilePath, 'utf-8'));
+const projectsPublicidadFilePath = path.join(__dirname, '../json/projectsPublicidad.json');
+const projectsPublicidad = JSON.parse(fs.readFileSync(projectsPublicidadFilePath, 'utf-8'));
 
 const projectController = {
     index: (req, res) => {
 
         res.render('project', {
-            projects: projectsEditorial,
+            projectsEditorial: projectsEditorial,
+            projectsPublicidad: projectsPublicidad,
         });
     }
     ,
