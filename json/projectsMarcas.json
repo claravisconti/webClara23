@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "category": "publicidad",
-        "images": "/publi/.png",
+        "category": "marcas",
+        "images": "/marcas/marcas01.png",
         "title": "Folleto yoga"
 
     },
