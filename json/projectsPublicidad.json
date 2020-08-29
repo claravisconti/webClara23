@@ -2,20 +2,20 @@
     {
         "id": 1,
         "category": "publicidad",
-        "images": "/publicidad/publicidad01.png",
+        "images": "/publicidad/publicidad01.jpg",
         "title": "Revista Maison"
 
     },
     {
         "id": 2,
         "category": "publicidad",
-        "images": "/editorial/editorial02.png",
+        "images": "/editorial/editorial03.png",
         "title": "Folleto"
     },
     {
         "id": 3,
         "category": "publicidad",
-        "images": "/editorial/editorial02.png",
+        "images": "/editorial/editorial03.png",
         "title": "Colección Cortázar"
 
     }
