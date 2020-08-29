@@ -2,15 +2,15 @@
     {
         "id": 1,
         "category": "publicidad",
-        "images": "/publi/.png",
-        "title": "Folleto yoga"
+        "images": "/publi/publicidad01.png",
+        "title": "Publicidad Smart Roll"
 
     },
     {
         "id": 2,
         "category": "publicidad",
         "images": "/publi/publicidad02B.png",
-        "title": "Yoga"
+        "title": "Clases de Yoga"
     },
     {
         "id": 3,

@@ -1,22 +1,16 @@
 [
     {
         "id": 1,
-        "category": "editorial",
-        "images": "/editorial/editorial01.png",
-        "title": "Revista Maison"
+        "category": "web",
+        "images": "/web/web01.png",
+        "title": "Mannequin e-commerce"
 
     },
     {
         "id": 2,
-        "category": "editorial",
-        "images": "/editorial/editorial02.png",
-        "title": "Revista Manifiesto"
-    },
-    {
-        "id": 3,
-        "category": "editorial",
-        "images": "/editorial/editorial03.png",
-        "title": "Colección Cortázar"
+        "category": "web",
+        "images": "/web/web02.png",
+        "title": "Clara Visconti Diseño Gráfico"
 
     }
 ]
