@@ -3,27 +3,27 @@
         "id": 1,
         "category": "marcas",
         "images": "/marcas/marcas01.png",
-        "title": "Folleto yoga"
+        "title": "IEC Coaching"
 
     },
     {
         "id": 2,
-        "category": "publicidad",
+        "category": "marcas",
         "images": "/marcas/marcas02.png",
-        "title": "Yoga"
+        "title": "Eventos Peggy"
     },
     {
         "id": 3,
-        "category": "publicidad",
+        "category": "marcas",
         "images": "/marcas/marcas04.png",
-        "title": "IEC coaching"
+        "title": "Clara Visconti Diseño Gráfico"
 
     },
     {
         "id": 4,
-        "category": "publicidad",
+        "category": "marcas",
         "images": "/marcas/marcas03.png",
-        "title": "IEC coaching"
+        "title": "Benker & Bolder Estudio"
 
     }
 ]
