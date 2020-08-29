@@ -9,13 +9,20 @@
     {
         "id": 2,
         "category": "publicidad",
-        "images": "/publi/publicidad02B.png",
+        "images": "/marcas/marcas02.png",
         "title": "Yoga"
     },
     {
         "id": 3,
         "category": "publicidad",
-        "images": "/publi/publicidad03.png",
+        "images": "/marcas/marcas04.png",
+        "title": "IEC coaching"
+
+    },
+    {
+        "id": 4,
+        "category": "publicidad",
+        "images": "/marcas/marcas03.png",
         "title": "IEC coaching"
 
     }
